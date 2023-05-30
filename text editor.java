@@ -1,4 +1,4 @@
-//package com.company;
+//package text_editor;
 
 import javax.swing.JFrame;
 import javax.swing.JMenu;
