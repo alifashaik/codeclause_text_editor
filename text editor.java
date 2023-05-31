@@ -59,8 +59,8 @@ class TextEditor implements ActionListener {
 
     TextEditor(){
         f = new JFrame("Untitled_Document-1"); //setting the frame
-        Image img = Toolkit.getDefaultToolkit().getImage("src\\com\\company\\logo.JPG"); //adding image
-        f.setIconImage(img);
+        //Image img = Toolkit.getDefaultToolkit().getImage("src\\com\\company\\logo.JPG"); //adding image
+        //f.setIconImage(img);
         menuBar = new JMenuBar();
 
         //menues
@@ -262,7 +262,7 @@ class TextEditor implements ActionListener {
         }
 
         if (e.getSource()==moonLightTheme){
-            textArea.setBackground(new Color(107, 169, 255));
+            textArea.setBackground(new Color(115, 150, 200F));
             textArea.setForeground(Color.black);
         }
 
